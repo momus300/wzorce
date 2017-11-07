@@ -47,6 +47,7 @@ class Config
 // testy
 $conf1 = Config::getInstance();
 echo $conf1->getLanguage(); // wyswietla "pl"
+
 $conf2 = Config::getInstance();
 $conf2->setLanguage("en");
 echo $conf1->getLanguage(); // wyswietla "en"
