@@ -44,7 +44,7 @@ class Config
     }
 }
 
-// testy
+// testy123
 $conf1 = Config::getInstance();
 echo $conf1->getLanguage(); // wyswietla "pl"
 
