@@ -59,6 +59,9 @@ class Context
 
 }
 
+$cow = 'cycki';
+//phpinfo();
+//die();
 // testy
 $tax = new Context();
 $tax->setTax(new TaxPL());

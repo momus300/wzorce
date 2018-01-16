@@ -34,6 +34,7 @@ class Product
     public function getAll()
     {
         echo "Lista produktów\n";
+        //cos nowego
     }
 
     public function get($id)
